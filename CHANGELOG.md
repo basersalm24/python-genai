@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.42.0](https://github.com/googleapis/python-genai/compare/v1.41.0...v1.42.0) (2025-10-06)
+
+
+### Features
+
+* Enable R2V and Advanced Controls for Veo on Gemini Developer API ([9c02a07](https://github.com/googleapis/python-genai/commit/9c02a070cd6b0f3f441c34ebf0d77ddd2ab1fcc0))
+
+
+### Bug Fixes
+
+* Increase `READ_BUFFER_SIZE` in `_api_client.py` for streaming large chunks in new model ([981bba7](https://github.com/googleapis/python-genai/commit/981bba7524b95ac3f5b1b12261d7e34013bbac82))
+* Make t_part and t_content conform to their type annotations: they now handle FileDict correctly and t_contents handles PartUnionDict correctly. ([0933632](https://github.com/googleapis/python-genai/commit/0933632103bba2900214b666d9df2bdb636f62aa))
+
 ## [1.41.0](https://github.com/googleapis/python-genai/compare/v1.40.0...v1.41.0) (2025-10-02)
 
 
